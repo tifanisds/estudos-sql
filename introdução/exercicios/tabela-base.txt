@@ -1,0 +1,10 @@
+Essa será a tabela utilizada para a primeira parte (Introdutória) dos exercícios de consulta
+
+| id | nome  | idade | cidade    | estado | email                                     |
+| -- | ----- | ----- | --------- | ------ | ----------------------------------------- |
+| 1  | Ana   | 22    | Salvador  | BA     | [ana@email.com](mailto:ana@email.com)     |
+| 2  | João  | 35    | Recife    | PE     | [joao@email.com](mailto:joao@email.com)   |
+| 3  | Carla | 40    | Salvador  | BA     | [carla@email.com](mailto:carla@email.com) |
+| 4  | Pedro | 28    | São Paulo | SP     | [pedro@email.com](mailto:pedro@email.com) |
+| 5  | Bruno | 30    | Recife    | PE     | [bruno@email.com](mailto:bruno@email.com) |
+| 6  | Bia   | 19    | Fortaleza | CE     | [bia@email.com](mailto:bia@email.com)     |
