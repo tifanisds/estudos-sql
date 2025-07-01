@@ -58,7 +58,7 @@ Para selecionar todas as colunas, usa-se o asterisco (*):
 ```sql
 SELECT * FROM alunos;
 ```
-![Filtragem com select](images/)
+![Filtragem com select](images/filtrando-com-select.png)
 
 
 ### 2️⃣ WHERE
@@ -87,8 +87,8 @@ Você também pode ordenar por mais de uma coluna:
 ```sql
 SELECT nome, idade FROM alunos ORDER BY idade DESC, nome ASC;
 ```
-![Ordenando decrescente](images/)
-![Ordenando crescente](images/)
+![Ordenando decrescente](images/order-by-cres.png)
+![Ordenando crescente](images/order-by-desc.png)
 
 
 ### 4️⃣ LIMIT
@@ -99,7 +99,7 @@ SELECT * FROM alunos LIMIT 5;
 ```
 Retorna apenas os 5 primeiros registros da tabela alunos.
 
-![Mostrando utilização do limit](images/)
+![Mostrando utilização do limit](images/limit.png)
 
 
 ### 5️⃣ GROUP BY
