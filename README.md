@@ -1,6 +1,6 @@
 # 📘 Estudos em SQL
 
-Bem-vindo(a) ao meu repositório de estudos em **SQL**!
+Bem-vindo(a) ao meu repositório de estudos em **SQL**! :)
 
 Este espaço foi criado com o objetivo de organizar e documentar meu processo de aprendizado sobre bancos de dados relacionais de forma clara, prática e acessível.
 
@@ -8,16 +8,9 @@ Aqui você encontrará:
 
 ✅ Explicações simples e diretas  
 ✅ Exemplos reais com código SQL  
-✅ Exercícios com respostas  
-✅ Tópicos do básico ao avançado  
-✅ Dicas e boas práticas  
+✅ Exercícios com respostas   
 ✅ Ilustrações e observações úteis  
 
----
-
-> 💡 Este repositório é ideal para iniciantes que estão dando os primeiros passos em SQL ou para quem deseja revisar os principais conceitos com uma abordagem didática.
-
----
 
 📌 **O que você pode esperar:**
 
@@ -28,13 +21,7 @@ Aqui você encontrará:
 - Trabalhar com funções agregadas  
 - Automatizar tarefas com Shell e Cron Jobs  
 - Validar entradas com Expressões Regulares (Regex)  
-- E muito mais!
-
----
-
-🔧 **Objetivo do projeto:**
-
-Este material serve tanto como referência pessoal quanto como fonte de estudo para outras pessoas que estão começando. Sinta-se à vontade para explorar, sugerir melhorias ou contribuir com novos exemplos e ideias!
+- E muito mais! ;)
 
 ---
 
@@ -123,8 +110,6 @@ HAVING COUNT(*) > 10;
 ```
 Retorna apenas os cursos com mais de 10 alunos.
 
-⚠️ Importante: não se pode usar WHERE com funções agregadas — nesse caso, usa-se HAVING.
-
 
 
 ### 7️⃣ Operadores Lógicos
@@ -150,6 +135,5 @@ Inverte o resultado de uma condição.
 SELECT * FROM alunos 
 WHERE NOT cidade = 'Salvador';
 ```
-📷 Imagem sugerida: Diagrama de lógica booleana mostrando AND / OR / NOT em ação.
 
 ### Em breve: 🔍 Consultas avançadas com JOIN
