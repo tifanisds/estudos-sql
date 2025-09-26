@@ -42,6 +42,7 @@ where preco > 100.00 and preco < 400.00
 3.2 - Combinando Tabelas com JOIN
 ---------------------------------------------------------------
 Escreva uma consulta que mostre o nome do cliente (da tabela Clientes) e o pedido_id e a data_pedido (da tabela Pedidos) para cada pedido realizado.
+
 SELECT c.nome, p.pedido_id, p.data_pedido
 FROM clientes c
 INNER JOIN pedidos p
