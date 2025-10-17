@@ -38,6 +38,31 @@ ON c.cliente_id = p.cliente_id
 GROUP BY c.nome
 ORDER BY faturamento_total DESC
 
-2 - Qual foi o número de pedidos e a quantidade total de itens vendidos em cada cidade mês a Mês?
+2 - Qual foi o número de pedidos e a quantidade total de itens vendidos em cada cidade Mês a Mês?
+SELECT 
+	COUNT(DISTINCT p.pedido_id) AS quantidade_pedidos,
+	SUM(pit.quantidade) AS quantidade_total,
+	c.cidade,
+	EXTRACT(MONTH FROM p.data_pedido) AS mes
+FROM pedido_itens pit
+INNER JOIN pedidos p
+ON p.pedido_id = pit.pedido_id
+INNER JOIN produtos pro
+ON pro.produto_id = pit.produto_id
+INNER JOIN clientes c
+ON c.cliente_id = p.cliente_id
+GROUP BY cidade
 
 3 - Quais clientes gastaram mais de R$ 1000,00 no total e cujo valor médio por pedido é superior à média de valor de todos os pedidos da loja?
+SELECT 
+	c.nome AS cliente,
+	SUM(pit.quantidade * pro.preco) AS valor_total
+FROM pedido_itens pit
+INNER JOIN pedidos p
+ON p.pedido_id = pit.pedido_id
+INNER JOIN produtos pro
+ON pro.produto_id = pit.produto_id
+INNER JOIN clientes c
+ON c.cliente_id = p.cliente_id
+GROUP BY c.nome
+HAVING (valor_total > 1000)
